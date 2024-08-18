@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.buttonContainer{
+    padding-top: 200px;
+}
+
+.header{
+    animation: changeColor 5s infinite alternate;
+}
+
+@keyframes changeColor{
+    10%{
+        color: red;
+    }
+    20%{
+        color: orange;
+    }
+    35%{
+        color: yellow;
+    }
+    45%{
+        color: green;
+    }
+    60%{
+        color: blue;
+    }
+    80%{
+        color: indigo;
+    }
+    100%{
+        color: violet;
+    }
+}
+
+.text{
+    font-size: 2.5rem;
+}
+
+.btn{
+    
+    padding: 15px 25px 15px 25px;
+    
+}
