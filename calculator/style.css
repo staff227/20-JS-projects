@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid red;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 2px solid black;
+  width: 30%;
+  height: 70%;
+}
+
+.solution {
+  background: #000;
+  color: white;
+  text-align: end;
+  grid-column: 1/-1;
+}
+
+.one {
+  border: 1px solid red;
+}
+
+.two {
+  border: 1px solid red;
+}
+.three {
+  border: 1px solid red;
+}
+.four {
+  border: 1px solid red;
+}
+.five {
+  border: 1px solid red;
+}
+/* .solution{
+    background: #000;
+    color: white;
+    width: 100%;
+    text-align: end;
+}
+
+.one {
+  display: flex;
+  border: 1px solid red;
+  width: 100%;
+}
+
+
+.two {
+  display: flex;
+  border: 1px solid red;
+  width: 100%;
+}
+.three {
+  display: flex;
+  border: 1px solid red;
+  width: 100%;
+}
+.four {
+  display: flex;
+  border: 1px solid red;
+  width: 100%;
+}
+.five {
+  display: flex;
+  border: 1px solid red;
+  width: 100%;
+}
+
+
+.one button{
+    flex: 1;
+}
+.two button{
+    flex: 1;
+}
+.three button{
+    flex: 1;
+}
+.four button{
+    flex: 1;
+}
+.five button{
+    flex: 1;
+} */
