@@ -20,10 +20,18 @@
   height: 70%;
 }
 
+button{
+  font-size: 1.5rem;
+}
+
 .solution {
   background: #000;
   color: white;
-  text-align: end;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  padding: 10px;
+  font-size: 3rem;
   grid-column: 1/-1;
 }
 
