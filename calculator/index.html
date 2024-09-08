@@ -9,26 +9,26 @@
   <body>
     <div class="main-container">
       <div class="container">
-        <div class="solution">4747</div>
-        <button>C</button>
-        <button>/</button>
-        <button>x</button>
-        <button>del</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>-</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>+</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>=</button>
-        <button>%</button>
-        <button>0</button>
-        <button>.</button>
+        <div class="solution"></div>
+        <button onclick="figures = ''; append();">C</button>
+        <button onclick="figures += '/'; append();">/</button>
+        <button onclick="figures += '*'; append();">x</button>
+        <button onclick="del(); append();">del</button>
+        <button onclick="figures += '7'; append();">7</button>
+        <button onclick="figures += '8'; append();">8</button>
+        <button onclick="figures += '9'; append();">9</button>
+        <button onclick="figures += '-'; append();">-</button>
+        <button onclick="figures += '4'; append();">4</button>
+        <button onclick="figures += '5'; append();">5</button>
+        <button onclick="figures += '6'; append();">6</button>
+        <button onclick="figures += '+'; append();">+</button>
+        <button onclick="figures += '1'; append();">1</button>
+        <button onclick="figures += '2'; append();">2</button>
+        <button onclick="figures += '3'; append();">3</button>
+        <button onclick="calculate(); append();">=</button>
+        <button onclick="figures += '%'; append();">%</button>
+        <button onclick="figures += '0'; append();">0</button>
+        <button onclick="figures += '.'; append();">.</button>
       </div>
     </div>
     <script src="script.js"></script>
