@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', Courier, monospace;
+  color: rgb(255, 255, 255);
+}
+.background{
+  height: 100vh;
+  background-image: url("/Todo-List/wp2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(239, 243, 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  border: 2px solid rgb(255, 238, 0);
+  width: 30%;
+}
+
+.header{
+  border: 2px solid rgb(255, 153, 0);
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  padding: 50px 0 30px 20px;
+}
+
+.icon{
+  margin-left: 10px;
+  max-width: 40px;
+}
+
+.inputContainer{
+  border: 2px solid rgb(0, 255, 55);
+  display: flex;
+  background: #d6ecf7;
+  border-radius: 35px;
+  
+}
+
+.input{
+  font-size: 1.3rem;
+  padding: 17px;
+  border-radius: 35px;
+  border: none;
+  flex: auto;
+  background: #d6ecf7;
+  color: #581298;
+}
+.input:focus{
+  outline: none;
+}
+
+.submit{
+  font-size: 1.2rem;
+  padding: 17px 45px 17px 45px;
+  border: none;
+  border-radius: 35px;
+  background-color: #581298;
+}
+
+.task{
+  display: flex;
+  border: 2px solid red;
+  align-items: center;
+}
+
+.delete{
+  width: 30px;
+}
+
+.unchecked{
+  width: 30px;
+}
+.checked{
+  width: 30px;
+}
+.todo{
+  flex: auto;
+  margin: 40px 10px;
+}
