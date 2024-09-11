@@ -5,13 +5,18 @@
   font-family: 'Roboto', Courier, monospace;
   color: rgb(255, 255, 255);
 }
+body{
+  
+  
+}
+
 .background{
-  height: 100vh;
+  min-height: 100vh;
   background-image: url("/Todo-List/wp2.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border: 2px solid rgb(239, 243, 2);
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
