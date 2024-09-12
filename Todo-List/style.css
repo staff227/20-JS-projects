@@ -1,16 +1,14 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', Courier, monospace;
+  font-family: "Roboto", Courier, monospace;
   color: rgb(255, 255, 255);
 }
-body{
-  
-  
+body {
 }
 
-.background{
+.background {
   min-height: 100vh;
   background-image: url("/Todo-List/wp2.jpg");
   background-size: cover;
@@ -22,33 +20,32 @@ body{
   align-items: center;
 }
 
-.container{
-  border: 2px solid rgb(255, 238, 0);
-  width: 30%;
+.container {
+  margin-top: 50px;
+  min-width: max-content;
 }
 
-.header{
-  border: 2px solid rgb(255, 153, 0);
+.header {
   display: flex;
   align-items: center;
   font-size: 1.3rem;
   padding: 50px 0 30px 20px;
 }
 
-.icon{
+.icon {
   margin-left: 10px;
   max-width: 40px;
 }
 
-.inputContainer{
-  border: 2px solid rgb(0, 255, 55);
+.inputContainer {
   display: flex;
   background: #d6ecf7;
   border-radius: 35px;
-  
+  min-width: max-content;
+  border: 2px solid white;
 }
 
-.input{
+.input {
   font-size: 1.3rem;
   padding: 17px;
   border-radius: 35px;
@@ -57,11 +54,11 @@ body{
   background: #d6ecf7;
   color: #581298;
 }
-.input:focus{
+.input:focus {
   outline: none;
 }
 
-.submit{
+.submit {
   font-size: 1.2rem;
   padding: 17px 45px 17px 45px;
   border: none;
@@ -69,23 +66,98 @@ body{
   background-color: #581298;
 }
 
-.task{
+.task {
   display: flex;
-  border: 2px solid red;
   align-items: center;
 }
 
-.delete{
+.delete {
   width: 30px;
 }
 
-.unchecked{
+.unchecked {
   width: 30px;
 }
-.checked{
+.checked {
   width: 30px;
 }
-.todo{
+.todo {
   flex: auto;
   margin: 40px 10px;
+}
+
+@media (max-width: 430px) {
+  .header {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    padding: 30px 0 15px 10px;
+  }
+
+  .container {
+    max-width: 95%;
+  }
+
+  .input {
+    font-size: 1rem;
+    padding: 15px;
+    border-radius: 35px;
+    border: none;
+    flex: auto;
+    background: #d6ecf7;
+    color: #581298;
+  }
+
+  .inputContainer {
+    display: flex;
+    background: #d6ecf7;
+    border-radius: 35px;
+    min-width: max-content;
+    border: 2px solid white;
+  }
+
+  .submit {
+    font-size: 1rem;
+    padding: 17px 45px 17px 45px;
+    border: none;
+    border-radius: 35px;
+    background-color: #581298;
+  }
+}
+@media (max-width: 320px) {
+  .header {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    padding: 30px 0 15px 10px;
+  }
+
+  .container {
+    max-width: 95%;
+  }
+
+  .input {
+    font-size: 0.9rem;
+    padding: 15px;
+    border-radius: 35px;
+    border: none;
+    flex: auto;
+    background: #d6ecf7;
+    color: #581298;
+  }
+
+  .inputContainer {
+    display: flex;
+    background: #d6ecf7;
+    border-radius: 35px;
+    min-width: max-content;
+  }
+
+  .submit {
+    font-size: 0.9rem;
+    padding: 17px 30px 17px 30px;
+    border: none;
+    border-radius: 35px;
+    background-color: #581298;
+  }
 }

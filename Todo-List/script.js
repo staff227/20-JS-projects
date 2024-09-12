@@ -77,6 +77,10 @@ function addTodo(){
     }
     
   })
+
+  delImage.addEventListener("click", function(){
+    task.remove()
+  })
 }
 
 function handleKeyDown(event){
@@ -84,3 +88,4 @@ function handleKeyDown(event){
     addTodo()
   }
 }
+
