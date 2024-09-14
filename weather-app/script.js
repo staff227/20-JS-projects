@@ -6,6 +6,6 @@ async function getWeather(){
   console.log(results);
 }
 
-
-
 getWeather()
+
+
