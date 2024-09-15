@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins"
+    />
+    <style>
+      * {
+        font-family: "Poppins", Courier, monospace;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <div class="background">
+      <h1 class="header">YOU CHOOSE</h1>
+      <div class="choiceContainer">
+        <div class="rock">
+          <span
+            ><img
+              src="./rock.svg"
+              alt="rock"
+              onclick="playGame('rock')"
+              class="rockImg"
+          /></span>
+        </div>
+        <div class="paper">
+          <span
+            ><img
+              src="./paper.svg"
+              alt="paper"
+              onclick="playGame('paper')"
+              class="paperImg"
+          /></span>
+        </div>
+        <div class="scissors">
+          <span
+            ><img
+              src="./scissors.svg"
+              alt="scissors"
+              onclick="playGame('scissors')"
+              class="scissorsImg"
+          /></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="gameBackground">
+      <div class="gameContainer">
+        <div class="playerChoice"></div>
+
+        <div class="info">
+          <h1 class="header">YOU DRAW</h1>
+        </div>
+
+        <div class="computerChoice"></div>
+      </div>
+      <div class="score">
+        <div class="playerScore">Player Move = 1</div>
+        <div class="computerScore">Computer Move = 2</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
