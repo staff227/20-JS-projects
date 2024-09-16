@@ -14,11 +14,13 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: fixed;
+  width: 100%;
 }
 .gameBackground{ 
   background-color: #CDB99C;
   min-height: 100vh;
-  display: none;
+  display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -47,7 +49,7 @@
   width: 100%;
   justify-content: space-around;
   padding-left: 15%;
-  padding-right: 10%;
+  padding-right: 15%;
 }
 
 .gameContainer{
@@ -61,4 +63,149 @@
 .score{
   margin-top: 50px;
   font-size: 2rem;
+}
+
+.playAgain{
+  margin-top: 40px;
+  padding: 0 20px 0 20px;
+  font-size: 1.8rem;
+  color: rgb(97, 31, 31);
+}
+
+@media (max-width: 900px) {
+  .choiceContainer{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .rockImg{
+    width: 200px;
+  }
+  .paperImg{
+    width: 200px;
+  }
+  .scissorsImg{
+    width: 200px;
+  }
+
+  .playAgain{
+    margin-top: 40px;
+    font-size: 1.8rem;
+    color: rgb(97, 31, 31);
+  }
+  .header{
+    margin-bottom: 100px;
+    font-size: 3rem;
+  }
+}
+
+
+@media (max-width: 640px) {
+  .choiceContainer{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .rockImg{
+    width: 150px;
+  }
+  .paperImg{
+    width: 150px;
+  }
+  .scissorsImg{
+    width: 150px;
+  }
+
+  .playAgain{
+    margin-top: 40px;
+    font-size: 2rem;
+    color: rgb(97, 31, 31);
+  }
+  .header{
+    margin-bottom: 100px;
+    font-size: 2rem;
+  }
+
+}
+
+@media (max-width: 450px) {
+  .choiceContainer{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .rockImg{
+    width: 100px;
+  }
+  .paperImg{
+    width: 100px;
+  }
+  .scissorsImg{
+    width: 100px;
+  }
+
+  .playAgain{
+    margin-top: 40px;
+    font-size: 1.4rem;
+    color: rgb(97, 31, 31);
+  }
+  .header{
+    margin-bottom: 100px;
+    font-size: 2rem;
+  }
+  .score{
+    margin-top: 50px;
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .choiceContainer{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .rockImg{
+    width: 80px;
+  }
+  .paperImg{
+    width: 80px;
+  }
+  .scissorsImg{
+    width: 80px;
+  }
+
+  .playAgain{
+    margin-top: 40px;
+    font-size: 1.2rem;
+    color: rgb(97, 31, 31);
+  }
+  .header{
+    margin-bottom: 100px;
+    font-size: 1.7rem;
+  }
+  .score{
+    margin-top: 50px;
+    font-size: 1.4rem;
+  }
 }
